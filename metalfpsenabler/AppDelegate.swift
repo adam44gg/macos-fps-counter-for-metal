@@ -66,7 +66,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         getenv.waitUntilExit()
         let outputData = try! output.fileHandleForReading.readToEnd()
         let outputString = String(decoding: outputData!, as: UTF8.self)
-        print("Output string: \(outputString)")
         if(outputString.contains("0")) {
             return false;
         }
