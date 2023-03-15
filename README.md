@@ -7,9 +7,9 @@ System Requirements: Mac OS Ventura (The built in FPS counter is only available 
 
 How to Use: 
 
-When launching the app, if the FPS command was launched manually through the terminal, the app will automatically disable it.
+When launching the app, the app will know if the HUD is already enabled or disabled.
 
-To enable the FPS counter, click enable. To disable it, click disable. Quitting the app will also automatically disable the FPS Counter.
+To enable the FPS counter, click enable. To disable it, click disable.
 
 Note: This will only work for Metal based games. 
 
